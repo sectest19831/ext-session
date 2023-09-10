@@ -1,0 +1,8 @@
+{
+    "name": "root/ext-session",
+    "description": "Test PoC",
+    "type": "library",
+    "require": {
+        "ext-session": "^7.4"
+    }
+}
