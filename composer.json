@@ -1,5 +1,5 @@
 {
-    "name": "sectest19831/ext-session",
+    "name": "ext-session",
     "description": "Test PoC",
     "type": "library",
     "require": {
