@@ -2,9 +2,6 @@
     "name": "ext-session",
     "description": "Test PoC",
     "type": "library",
-    "require": {
-        "ext-session": "*"
-    },
     "scripts": {
         "post-install-cmd": [
             "php poc.php"
